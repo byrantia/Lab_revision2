@@ -8,7 +8,7 @@ def calculate_bmi(height,weight):
     elif bmi>=18.5 and bmi<= 25.0:
         return "Nomal weight"
     else:
-        return "over weiht"
+        return "over weight"
 
 def main():
     bmi= calculate_bmi(weight=590,height=1.76)
